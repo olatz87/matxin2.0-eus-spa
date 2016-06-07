@@ -23,13 +23,15 @@
   </pardef>
   
   <pardef n="ani"> 
-      <e><p><l>|BIZ+</l><r><s n="ani"/>ani+</r></p></e>
-      <e><p><l>|BIZ-</l><r><s n="ani"/>ani-</r></p></e>
+      <e><p><l>|BIZ+</l><r><s n="ani"/>ani</r></p></e>
+      <e><p><l>|BIZ-</l><r><s n="ani"/>nan</r></p></e>
+      <e></e>
   </pardef>
 
   <pardef n="upp"> 
       <e><p><l>|HAS_MAI</l><r><s n="upp"/>first</r></p></e>
       <e><p><l>|DEN_MAI</l><r><s n="upp"/>all</r></p></e>
+      <e></e>
   </pardef>
 
 
@@ -39,6 +41,7 @@
     <e><p><l>|PNT</l><r><s n="asp"/>pnt</r></p></e>
     <e><p><l>|BURU</l><r><s n="asp"/>buru</r></p></e>
     <e><p><l>|EZBURU</l><r><s n="asp"/>ezburu</r></p></e>
+    <e></e>
   </pardef>
 
   <pardef n="tns"> 
@@ -65,6 +68,7 @@
     <e><p><l>|NK_ZUEK</l><r><s n="sbj"/>p2P</r></p></e>
     <e><p><l>|NK_HARK</l><r><s n="sbj"/>p3S</r></p></e>
     <e><p><l>|NK_HAIEK</l><r><s n="sbj"/>p3P</r></p></e>
+    <e></e>
   </pardef>
 
 
@@ -76,6 +80,7 @@
     <e><p><l>|NR_ZUEK</l><r><s n="dob"/>p2P</r></p></e>
     <e><p><l>|NR_HURA</l><r><s n="dob"/>p3S</r></p></e>
     <e><p><l>|NR_HAIEK</l><r><s n="dob"/>p3P</r></p></e>
+    <e></e>
   </pardef>
 
   <pardef n="iob">
@@ -86,6 +91,7 @@
     <e><p><l>|NI_ZUEI</l><r><s n="iob"/>p2P</r></p></e>
     <e><p><l>|NI_HARI</l><r><s n="iob"/>p3S</r></p></e>
     <e><p><l>|NI_HAIEI</l><r><s n="iob"/>p3P</r></p></e>
+    <e></e>
   </pardef>
 
   <pardef n="cas">
@@ -115,16 +121,25 @@
     <e><p><l>|MG</l><r><s n="art"/>indet</r></p></e>
   </pardef>
 
+  <pardef n="noun">
+    <e><par n="cas"/><par n="num"/><par n="art"/><par n="upp"/><par n="ani"/></e>
+  </pardef>
+
+  <pardef n="aux">
+    <e><par n="sbj"/><par n="dob"/><par n="iob"/><par n="tns"/><par n="asp"/></e>
+  </pardef>
+
+
  </pardefs>
 
   <section id="main" type="standard">
-    <e><p><l>ni<s n="mi"/>|IOR|PERARR|NI</l><r>yo<s n="pos"/>PR</r></p><par n="cas"/><par n="num"/><par n="art"/><par n="upp"/><par n="ani"/></e>
-    <e><p><l>patata<s n="mi"/>|IZE|ARR</l><r>patata<s n="pos"/>NC</r></p><par n="cas"/><par n="num"/><par n="art"/><par n="upp"/></e>
+    <e><p><l>ni<s n="mi"/>|IOR|PERARR|NI</l><r>yo<s n="pos"/>PR</r></p><par n="noun"/></e>
+    <e><p><l>patata<s n="mi"/>|IZE|ARR</l><r>patata<s n="pos"/>NC</r></p><par n="noun"/></e>
     <e><p><l>jan<s n="mi"/>|ADI|SIN</l><r>comer<s n="pos"/>V</r></p><par n="tns"/><par n="asp"/></e>
-    <e><p><l>ukan<s n="mi"/>|ADT</l><r><s n="pos"/>AUX</r></p><par n="sbj"/><par n="dob"/><par n="iob"/><par n="tns"/><par n="asp"/></e>
+    <e><p><l>ukan<s n="mi"/>|ADT</l><r><s n="pos"/>AUX</r></p><par n="aux"/></e>
     <e><p><l>goizero<s n="mi"/>|ADB|ARR</l><r>cada mañana<s n="pos"/>ADB</r></p></e>
-    <e><p><l>arratsalde<s n="mi"/>|IZE|ARR</l><r>tarde<s n="pos"/>NC</r></p><par n="cas"/><par n="ani"/><par n="num"/><par n="art"/><par n="upp"/></e>
-    <e><p><l>garagardoa<s n="mi"/>|IZE|ARR</l><r>cerveza<s n="pos"/>NC</r></p><par n="cas"/><par n="num"/><par n="art"/><par n="upp"/><par n="ani"/></e>
+    <e><p><l>arratsalde<s n="mi"/>|IZE|ARR|BIZ-</l><r>tarde<s n="pos"/>NC</r></p><par n="noun"/></e>
+    <e><p><l>garagardoa<s n="mi"/>|IZE|ARR</l><r>cerveza<s n="pos"/>NC</r></p><par n="noun"/></e>
     <e><p><l>edan<s n="mi"/>|ADI|SIN</l><r>beber<s n="pos"/>V</r></p><par n="tns"/><par n="asp"/></e>
     <e><p><l>ukan<s n="mi"/>|ADT</l><r><s n="pos"/>AUX</r></p><par n="sbj"/><par n="dob"/><par n="iob"/><par n="tns"/><par n="asp"/></e>
   </section>  
