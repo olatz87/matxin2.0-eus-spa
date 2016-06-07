@@ -1,0 +1,23 @@
+<corpus>
+  <SENTENCE alloc="0" ord="1">
+    <NODE ord="4" alloc="0" form="ditut" lem="ukan" mi="|ADT|PNT|A1|NOR_NORK|NR_HAIEK|NK_NIK" si="root">
+      <NODE ord="3" alloc="0" form="jaten" lem="jan" mi="|ADI|SIN|MOD|INE" si="xmod">
+        <NODE ord="2" alloc="0" form="patatak" lem="patata" mi="|IZE|ARR|BIZ-|ABS|NUMP|MUGM" si="ncobj"/>
+      </NODE>
+      <NODE ord="5" alloc="0" form="goizero" lem="goizero" mi="|ADB|ARR|ZERO" si="ncmod">
+        <NODE ord="6" alloc="0" form="." lem="." mi="|PUNT_PUNT" si="PUNC"/>
+      </NODE>
+      <NODE ord="1" alloc="0" form="Nik" lem="ni" mi="|IOR|PERARR|NI|ERG|NUMS|MUGM|HAS_MAI" si="ncsubj"/>
+    </NODE>
+  </SENTENCE>
+  <SENTENCE alloc="0" ord="2">
+    <NODE ord="3" alloc="0" form="edango" lem="edan" mi="|ADI|SIN|GERO" si="root">
+      <NODE ord="2" alloc="0" form="garagardoa" lem="garagardo" mi="|IZE|ARR|ABS|NUMS|MUGM" si="ncobj"/>
+      <NODE ord="4" alloc="0" form="dut" lem="ukan" mi="|ADT|PNT|A1|NOR_NORK|NR_HURA|NK_NIK" si="auxmod">
+        <NODE ord="5" alloc="0" form="." lem="." mi="|PUNT_PUNT" si="PUNC"/>
+      </NODE>
+      <NODE ord="1" alloc="0" form="Arratsaldean" lem="arratsalde" mi="|IZE|ARR|BIZ-|INE|NUMS|MUGM|HAS_MAI" si="ncmod"/>
+    </NODE>
+  </SENTENCE>
+</corpus>
+
