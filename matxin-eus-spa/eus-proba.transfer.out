@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus>
+  <SENTENCE ref="1" alloc="0">
+    <NODE alloc="0" si="root" ref="4" slem="ukan" smi="|ADT|PNT|A1|NOR_NORK|NR_HAIEK|NK_NIK" UpCase="none" lem="ukan" mi="|ADT|PNT|A1|NOR_NORK|NR_HAIEK|NK_NIK" unknown="transfer">
+      <NODE alloc="0" si="xmod" ref="3" slem="jan" smi="|ADI|SIN|MOD|INE" UpCase="none" lem="jan" mi="|ADI|SIN|MOD|INE" unknown="transfer">
+        <NODE alloc="0" si="ncobj" ref="2" slem="patata" smi="|IZE|ARR|BIZ-|ABS|NUMP|MUGM" UpCase="none" lem="patata" mi="|IZE|ARR|BIZ-|ABS|NUMP|MUGM" unknown="transfer"/>
+      </NODE>
+      <NODE alloc="0" si="ncmod" ref="5" slem="goizero" smi="|ADB|ARR|ZERO" UpCase="none" lem="goizero" mi="|ADB|ARR|ZERO" unknown="transfer">
+        <NODE alloc="0" si="PUNC" ref="6" slem="." smi="|PUNT_PUNT" UpCase="none" lem="." mi="|PUNT_PUNT" unknown="transfer"/>
+      </NODE>
+      <NODE alloc="0" si="ncsubj" ref="1" slem="ni" smi="|IOR|PERARR|NI|ERG|NUMS|MUGM|HAS_MAI" UpCase="none"/>
+    </NODE>
+  </SENTENCE>
+  <SENTENCE ref="2" alloc="0">
+    <NODE alloc="0" si="root" ref="3" slem="edan" smi="|ADI|SIN|GERO" UpCase="none" lem="edan" mi="|ADI|SIN|GERO" unknown="transfer">
+      <NODE alloc="0" si="ncobj" ref="2" slem="garagardo" smi="|IZE|ARR|ABS|NUMS|MUGM" UpCase="none" lem="garagardo" mi="|IZE|ARR|ABS|NUMS|MUGM" unknown="transfer"/>
+      <NODE alloc="0" si="auxmod" ref="4" slem="ukan" smi="|ADT|PNT|A1|NOR_NORK|NR_HURA|NK_NIK" UpCase="none" lem="ukan" mi="|ADT|PNT|A1|NOR_NORK|NR_HURA|NK_NIK" unknown="transfer">
+        <NODE alloc="0" si="PUNC" ref="5" slem="." smi="|PUNT_PUNT" UpCase="none" lem="." mi="|PUNT_PUNT" unknown="transfer"/>
+      </NODE>
+      <NODE alloc="0" si="ncmod" ref="1" slem="arratsalde" smi="|IZE|ARR|BIZ-|INE|NUMS|MUGM|HAS_MAI" UpCase="none" lem="arratsalde" mi="|IZE|ARR|BIZ-|INE|NUMS|MUGM|HAS_MAI" unknown="transfer"/>
+    </NODE>
+  </SENTENCE>
+</corpus>
