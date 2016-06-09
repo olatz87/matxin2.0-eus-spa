@@ -141,13 +141,13 @@
  </pardefs>
 
   <section id="main" type="standard">
-    <e><p><l>ni<s n="mi"/>|IOR|PERARR|NI</l><r>yo<s n="pos"/>PR</r></p><par n="noun"/></e>
-    <e><p><l>patata<s n="mi"/>|IZE|ARR</l><r>patata<s n="pos"/>NC</r></p><par n="noun"/></e>
+    <e><p><l>ni<s n="mi"/>|IOR|PERARR|NI</l><r>yo<s n="pos"/>prn<s n="per"/>p1<s n="gen"/>mf<s n="num"/>sg</r></p><par n="noun"/></e>
+    <e><p><l>patata<s n="mi"/>|IZE|ARR</l><r>patata<s n="pos"/>n<s n="gen"/>f</r></p><par n="noun"/></e>
     <e><p><l>jan<s n="mi"/>|ADI|SIN</l><r>comer<s n="pos"/>V</r></p><par n="asp"/></e>
     <e><p><l>ukan<s n="mi"/>|ADT</l><r><s n="pos"/>AUX</r></p><par n="nnn"/></e>
-    <e><p><l>goizero<s n="mi"/>|ADB|ARR</l><r>cada mañana<s n="pos"/>ADB</r></p><par n="cas"/></e>
-    <e><p><l>arratsalde<s n="mi"/>|IZE|ARR</l><r>tarde<s n="pos"/>NC</r></p><par n="noun"/></e>
-    <e><p><l>garagardo<s n="mi"/>|IZE|ARR</l><r>cerveza<s n="pos"/>NC</r></p><par n="noun"/></e>
+    <e><p><l>goizero<s n="mi"/>|ADB|ARR</l><r>cada mañana<s n="pos"/>adv</r></p><par n="cas"/></e>
+    <e><p><l>arratsalde<s n="mi"/>|IZE|ARR</l><r>tarde<s n="pos"/>n<s n="gen"/>f</r></p><par n="noun"/></e>
+    <e><p><l>garagardo<s n="mi"/>|IZE|ARR</l><r>cerveza<s n="pos"/>n<s n="gen"/>f</r></p><par n="noun"/></e>
     <e><p><l>edan<s n="mi"/>|ADI|SIN</l><r>beber<s n="pos"/>V</r></p><par n="asp"/></e>
     <e><p><l>ukan<s n="mi"/>|ADT</l><r><s n="pos"/>AUX</r></p><par n="asp"/><par n="nnn"/></e>
     <e><p><l>.<s n="mi"/>|PUNT_PUNT</l><r><s n="pos"/>punt</r></p></e>
